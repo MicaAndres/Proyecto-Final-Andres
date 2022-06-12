@@ -1,0 +1,32 @@
+.carritoCanvaDerecho{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    visibility: hidden;
+}
+
+.active{
+    visibility: visible;
+}
+
+.iniciarSesion{
+    border-radius: 15px;
+    border: solid 2px #fceee6;
+    color: #22333b;
+    background-color: #F9FAFB;
+}
+
+.canvaProd{
+    display: grid;
+    justify-content: center;
+    background: #fceee6;
+    width: 5%;
+}
+
+.infoContacto{
+    display: grid;
+    justify-content: center;
+    width: 15%;
+
+}

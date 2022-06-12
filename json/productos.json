@@ -1,0 +1,61 @@
+[
+    {
+        "id":"1",
+        "nombre": "Cubre cama",
+        "precio": 5166,
+        "cantidad": 1,
+        "img": "../assets/habitacion2.png"
+    }, 
+    {
+        "nombre": "Alfombras Niel",
+        "precio": 2873,
+        "id":"2",
+        "cantidad": 1,
+        "img": "../assets/alfombra.jpg"
+    }, 
+    {
+        "nombre": "Almohadon Mery",
+        "precio": 1556,
+        "id":"3",
+        "cantidad": 1,
+        "img": "../assets/almohadones.jpg"
+    }, 
+    {
+        "nombre": "Almohadon Sofia",
+        "precio": 1113,
+        "id":"4",
+        "cantidad": 1,
+        "img": "../assets/almohadones2.jpg"
+    }, 
+    {
+        "nombre": "Cubre sofa",
+        "precio": 5740,
+        "id":"5",
+        "img": "../assets/living.jpg"
+    }, 
+    {
+        "nombre": "Pie cama volados",
+        "precio": 2582,
+        "id":"6",
+        "img": "../assets/pievolados.jpg"
+    }, 
+    {
+        "nombre": "Caminito Volado",
+        "precio": 2099,
+        "id":"7",
+        "img": "../assets/mantel.jpg"
+    }, 
+    {
+        "nombre": "Cortinas Olivia",
+        "precio": 3900,
+        "id":"8",
+        "img": "../assets/Cortinas.jpg"
+    },
+    {
+        "nombre": "Cortinas Merli",
+        "precio": 2689,
+        "id":"9",
+        "img": "../assets/mantel.jpg"
+    }
+
+]

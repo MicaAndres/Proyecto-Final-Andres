@@ -1,0 +1,334 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+body {
+  background-color: #F9FAFB;
+  font-family: "Montserrat", sans-serif;
+  color: #22333b;
+}
+
+body header {
+  background-color: #FAF5F2;
+  justify-content: center;
+  border-bottom: solid 3px #fceee6;
+  margin-bottom: 20px;
+  background-image: linear-gradient(to top, #FAF5F2, white);
+}
+
+body header div img.logo {
+  border-radius: 80px;
+}
+
+body header div {
+  padding-top: 30px;
+}
+
+body header div ul {
+  display: flex;
+  justify-content: end;
+}
+
+body header div ul li a {
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  color: #22333b;
+}
+
+body header div ul li a:hover {
+  color: #22333b;
+  font-size: 18px;
+}
+
+body div {
+  margin-bottom: 10px;
+}
+
+body main article.newsletter {
+  display: flex;
+  justify-content: center;
+  outline: #22333b;
+  border-bottom: solid 1px #22333b;
+}
+
+body main article.newsletter input {
+  text-decoration-line: none;
+  border: 0;
+  text-decoration-color: #22333b;
+  background-color: #F9FAFB;
+  color: #22333b;
+  border-bottom: solid 1px #22333b;
+  margin-bottom: 10px;
+}
+
+body main aside img {
+  width: 120px;
+  height: 300px;
+}
+
+body main aside input {
+  border-radius: 15px;
+  border: solid 2px #fceee6;
+  color: #22333b;
+  background-color: #F9FAFB;
+}
+
+body main aside input:hover {
+  text-decoration: none;
+  background-color: #FAF5F2;
+}
+
+body main section.sectionIndex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 400px;
+  padding-right: 400px;
+  margin-bottom: 20px;
+}
+
+body main section.sectionIndex div.borderLeft {
+  border-left: solid 1px #22333b;
+  padding-left: 10px;
+}
+
+body main section.sectionIndex img.fotoOpcion {
+  max-width: 10%;
+  max-height: 10%;
+  padding-right: 5px;
+}
+
+body main article.tituloSecundario {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+body main section.contacto {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+body main section.contacto form {
+  padding: 20px;
+  border: solid 3px #fceee6;
+  background-color: #FAF5F2;
+  background-image: linear-gradient(to bottom, #FAF5F2, white);
+}
+
+body main section.contacto form input {
+  border: solid 1px #22333b;
+  color: #22333b;
+  font-family: "Montserrat", sans-serif;
+}
+
+body main section.contacto form input::-webkit-input-placeholder {
+  text-align: center;
+  line-height: 100px;
+  padding-right: 50px;
+}
+
+body main section.contacto form textarea {
+  text-align: center;
+  line-height: 50px;
+}
+
+body main section.contacto form input.enviar {
+  border-radius: 5px;
+  border: solid 2px #fceee6;
+  color: #22333b;
+  background-color: #F9FAFB;
+}
+
+body main section.contacto form input.enviar:hover {
+  text-decoration: none;
+  background-color: #FAF5F2;
+}
+
+body main section.gracias {
+  padding-top: 5%;
+  padding-bottom: 5%;
+  background-image: linear-gradient(to bottom, #FAF5F2, white);
+}
+
+body main section.inSesion form {
+  padding: 20px;
+  border: solid 3px #fceee6;
+  background-color: #FAF5F2;
+  background-image: linear-gradient(to bottom, #FAF5F2, white);
+}
+
+body main section.inSesion form input {
+  border: solid 1px #22333b;
+  color: #22333b;
+  font-family: "Montserrat", sans-serif;
+}
+
+body main section.inSesion form input::-webkit-input-placeholder {
+  text-align: center;
+  line-height: 100px;
+  padding-right: 50px;
+}
+
+body main section.inSesion form input.enviar {
+  border-radius: 5px;
+  border: solid 2px #fceee6;
+  color: #22333b;
+  background-color: #F9FAFB;
+}
+
+body main section.inSesion form input.enviar:hover {
+  text-decoration: none;
+  background-color: #FAF5F2;
+}
+
+body main aside.nosotras img.miMa {
+  width: 60%;
+  height: 60%;
+}
+
+body main aside.nosotras p {
+  padding: 5% 10% 5% 10%;
+}
+
+body main section.preguntas h5 {
+  font-weight: bold;
+  margin-right: 5%;
+}
+
+body main section.preguntas h6 {
+  border-bottom: solid 1px #22333b;
+  margin-right: 10%;
+}
+
+body main section.productos div.card {
+  background-color: #F9FAFB;
+  border: solid 2px #fceee6;
+}
+
+body main section.productos input {
+  border-radius: 15px;
+  border: solid 2px #fceee6;
+  color: #22333b;
+  background-color: #F9FAFB;
+}
+
+body main section.productos input:hover {
+  text-decoration: none;
+  background-color: #FAF5F2;
+}
+
+body footer {
+  background-color: #FAF5F2;
+  border-top: solid 3px #fceee6;
+  margin-top: 20px;
+  background-image: linear-gradient(to bottom, #FAF5F2, white);
+}
+
+body footer ul li a {
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  color: #22333b;
+  font-size: 14px;
+}
+
+body footer ul li a:hover {
+  color: #22333b;
+  font-size: 18px;
+}
+
+body footer p a {
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  color: #22333b;
+  font-size: 14px;
+}
+
+body footer p a:hover {
+  font-size: 20px;
+  background-color: black;
+  color: #e25151;
+  border-radius: 40%;
+}
+
+body footer img {
+  max-width: 25px;
+  max-height: 25px;
+}
+
+@media screen and (min-width: 360px) {
+  body header button.navbar-toggler {
+    margin-left: 40%;
+  }
+  body header ul.flex-column {
+    justify-content: flex-start;
+    margin-left: 30%;
+    margin-bottom: 10%;
+  }
+  body main section div div.flexRow {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin: 5px;
+    align-items: center;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    padding-left: 15%;
+  }
+  body main section div div.flexRow ul img.fotoOpcion {
+    max-width: 10%;
+    max-height: 10%;
+  }
+  body main section.inSesion div.marginMobile {
+    padding-right: 2%;
+  }
+  body main section.productos div.card {
+    padding-right: 22px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  body main .card {
+    display: flex;
+    flex-direction: row;
+  }
+  body main .card img {
+    width: 60%;
+    height: 60%;
+  }
+  body main section div div.flexRow {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin: 5px;
+    align-items: center;
+    padding-bottom: 2%;
+    padding-top: 2%;
+    padding-left: 30%;
+  }
+  body main section div div.flexRow ul img.fotoOpcion {
+    max-width: 10%;
+    max-height: 10%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  body header ul.flex-column {
+    display: inline-block;
+  }
+  body main section div.sectionIndex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 400px;
+    padding-right: 400px;
+    margin-bottom: 20px;
+  }
+  body main section div.sectionIndex div.borderLeft {
+    border-left: solid 1px #22333b;
+    padding-left: 10px;
+  }
+  body main section div.sectionIndex img.fotoOpcion {
+    max-width: 10%;
+    max-height: 10%;
+    padding-right: 5px;
+  }
+}
